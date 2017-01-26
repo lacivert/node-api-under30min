@@ -1,0 +1,27 @@
+{
+  "name": "node-api-under30min",
+  "version": "1.0.0",
+  "description": "https://medium.freecodecamp.com/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2#.t2zpfb305",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lacivert/node-api-under30min.git"
+  },
+  "author": "yasin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lacivert/node-api-under30min/issues"
+  },
+  "homepage": "https://github.com/lacivert/node-api-under30min#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.22"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
